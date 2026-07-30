@@ -17,4 +17,4 @@ def test_has_title(page: Page):
         has=page.locator("button.btn_inventory")
     )
     product1.first.locator("button").click()
-    page.wait_for_timeout(15000)
+    page.wait_for_timeout(3000)
